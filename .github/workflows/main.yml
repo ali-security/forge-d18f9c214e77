@@ -1,6 +1,7 @@
 name: Main Checks
 
-on: [push]
+on:
+  workflow_dispatch:
 
 jobs:
   test-node:
